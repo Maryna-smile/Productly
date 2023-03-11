@@ -1,0 +1,32 @@
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #544837;
+}
+
+* {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}

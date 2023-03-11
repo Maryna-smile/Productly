@@ -27,7 +27,7 @@
 }
 
 .nav__list-item:hover {
-  scale: 1.2;
+  scale: 1.05;
 }
 
 .nav__link-active {
@@ -292,6 +292,14 @@ hr {
   margin-bottom: 25px;
 }
 
+.footer__block-text {
+  transition: all 250ms ease;
+}
+
+.footer__block-text:hover {
+  scale: 1.05;
+}
+
 .footer__last-block-input {
   width: 340px;
   height: 50px;
@@ -302,6 +310,6 @@ hr {
 }
 
 .footer__last-block-input::placeholder {
-  padding-left: 10px;
+  padding-left: 15px;
   color: #bcd0e5;
 }

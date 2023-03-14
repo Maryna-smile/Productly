@@ -28,6 +28,7 @@
 
 .nav__list-item:hover {
   scale: 1.05;
+  color: #ff9900;
 }
 
 .nav__link-active {
@@ -298,6 +299,7 @@ hr {
 
 .footer__block-text:hover {
   scale: 1.05;
+  color: #ff9900;
 }
 
 .footer__last-block-input {
@@ -307,6 +309,11 @@ hr {
   border-radius: 4px;
   margin-bottom: 25px;
   padding-left: 10px;
+  font-size: 16px;
+}
+
+.footer__last-block-input:hover, :focus {
+    border-color: #ff9900;
 }
 
 .footer__last-block-input::placeholder {
